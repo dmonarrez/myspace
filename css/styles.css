@@ -1,0 +1,181 @@
+body {
+  background-color: rgb(229, 229, 229);
+  font-size: 9pt;
+}
+
+h5, p {
+  margin: 0;
+}
+
+h5 {
+  font-size: 11px;
+}
+
+button {
+  color: black;
+  background-color: #e0ffff;
+}
+
+.container {
+  padding: 0px;
+  background-color: white;
+  width: 780px;
+}
+
+.header {
+  color: white;
+  height: 96px;
+  width: 100%;
+  font-family: arial;
+  background-color: #003399;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header > div > a {
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: rgb(102, 152, 203);
+}
+
+nav > p > a {
+  color: white;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-image {
+  padding-left: 0;
+}
+
+#profile-links {
+  text-align: center;
+}
+
+.profile-info{
+  padding-left: 20px;
+}
+
+.user-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel {
+  border-color: #6699cc;
+  border-radius: 0;
+}
+
+.panel-heading {
+  display: flex;
+  border-radius: 0;
+  background-color: #6699cc;
+  align-items: center;
+  padding: 0;
+}
+
+.panel-heading > h5 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding-left: 5px;
+  color: white;
+}
+
+.mySpace-URL {
+  border: 1px solid;
+  border-color: #6699cc;
+}
+
+.toms-interests {
+  margin-top: 20px;
+}
+.panel-body {
+  padding: 2px;
+}
+
+.panel-body > .row {
+  color: #336699;
+  font-size: 8pt;
+  padding: 0px;
+  background-color: #b1d0f0;
+  margin: 1pt;
+}
+
+.int-choices {
+  color: black;
+  background-color: #d5e8fb;
+  margin-left: 23px;
+  border-left: 2px white solid;
+}
+
+.title {
+  height: 73px;
+  width: 425px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px black solid;
+}
+
+/* right styles */
+
+.blog > p {
+  margin-top: 10px;
+}
+
+.blog > p > a, .blog-a  {
+  font-weight: bold;
+  color: #003399;
+}
+
+
+.orange {
+  color: #FF6600;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.blurb-heading {
+  background: #ffcc99;
+  height: 17px;
+  padding-left: 5px;
+  margin-bottom: 3px;
+}
+
+.green {
+  color: green;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+.friend {
+  text-align: center;
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.friend-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
